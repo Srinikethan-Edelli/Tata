@@ -61,3 +61,7 @@ The insights are designed for CEO/CMO-level decision-making.
 - 👉 Power BI Dashboard (.pbix): [Download Here](https://github.com/Srinikethan-Edelli/Tata/blob/main/Tata.pbix)
 - 👉 Screenshots Folder: /screenshots
 
+## 📊 Dashboard Preview
+![Screenshot](screenshots/Screenshot%202025-11-17%20223454.png)
+
+
