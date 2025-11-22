@@ -1,60 +1,43 @@
-✨ Retail Sales Power BI Dashboard – End-to-End Project
+# 📊 Retail Sales Analytics Dashboard – End-to-End Power BI Project
 
-This project demonstrates a complete analytics workflow using the Online Retail Dataset, with end-to-end steps including data cleaning, DAX calculations, trend analysis, and executive-level dashboards for business decision-making.
+An end-to-end Retail Sales Analytics project built using **Power BI**, covering the full workflow from **data cleaning**, **DAX measures**, **time intelligence**, and **executive-level insights** for CEO/CMO decision-making.
 
-📊 Dashboards Included
+---
 
-1. Monthly Revenue Trend – 2011
-Highlights seasonal revenue patterns and performance across months.
+## 🚀 Project Overview
 
-2. Top 10 Countries by Revenue (Excluding UK)
-Identifies top-performing international markets.
+This project analyzes global retail sales data to uncover key business insights such as:
+- 🔍 Monthly revenue trends (Time Series Analysis)
+- 🌍 Top 10 revenue-generating countries (Excluding the UK)
+- 👥 Top 10 customers by revenue contribution
+- 🗺️ Global product demand distribution through map visuals
 
-3. Top 10 Customers by Revenue
-Shows the highest-value customers for targeted business strategy.
+The dashboard is designed to support **strategic decisions** such as forecasting, marketing focus, and expansion planning.
 
-4. Product Demand by Country (Bubble Map)
-Visualizes global demand distribution across regions.
+---
 
-🛠️ Skills Used
+## 🧹 Data Preparation & Cleaning
 
-* Data Cleaning & Transformation
+Before building visuals, the dataset was cleaned using Power Query:
 
-* DAX Calculations
+✔ Removed incorrect negative quantities  
+✔ Fixed invalid unit price values  
+✔ Ensured Quantity ≥ 1  
+✔ Ensured UnitPrice ≥ 0  
+✔ Converted InvoiceDate to proper DateTime  
+✔ Removed duplicate or null values  
 
-* Data Modeling
+This ensures **100% accurate analytics**.
 
-* Time Intelligence
+---
 
-* Top N Analysis
+## 🧠 DAX Measures Used
 
-* Sorting & Filtering
+Key DAX measures created:
 
-* Geo-Spatial Mapping
+```DAX
+Revenue = SUMX('Online Retail', 'Online Retail'[Quantity] * 'Online Retail'[UnitPrice])
 
-* Dashboard Storytelling
-
-📂 Project Files Included
-
-* Tata.pbix – Full Power BI report
-
-* Dashboard screenshots
-
-* README documentation
-
-🎯 Outcome
-
-This end-to-end retail analysis project provides insights that help business leaders understand:
-
-* Revenue seasonality
-
-* International market performance
-
-* High-value customer behavior
-
-*Global product demand
-
-The insights are designed for CEO/CMO-level decision-making.
 
 
 ## 📁 Project Files
@@ -66,6 +49,64 @@ The insights are designed for CEO/CMO-level decision-making.
 ![Screenshot](screenshots/Screenshot%202025-11-17%20223533.png)
 ![Screenshot](screenshots/Screenshot%202025-11-17%20223615.png)
 ![Screenshot](screenshots/Screenshot%202025-11-17%20223646.png)
+
+
+📊 Key Insights
+🔹 Q1: Revenue Seasonality (2011)
+
+* Clear seasonal revenue peaks detected in Q4.
+
+* Helps with inventory planning & forecasting.
+
+🔹 Q2: Top Countries by Revenue
+
+* Netherlands, EIRE, Germany, and France drive significant revenue—excluding the UK.
+
+* Ensures marketing direction for high-value regions.
+
+🔹 Q3: Top Customers
+
+* A small set of customers contribute disproportionately high revenue.
+
+* Useful for loyalty programs and retention initiatives.
+
+🔹 Q4: Global Demand Map
+
+* Visual hotspot analysis across regions.
+
+* Identifies expansion opportunities outside the UK.
+
+🛠️ Tech Stack
+
+* Power BI Desktop
+
+* Power Query (ETL)
+
+* DAX (Data Analysis Expressions)
+
+* Excel (Raw Data)
+
+*GitHub (Version Control)
+
+🎯 Business Impact
+
+This dashboard enables leadership to:
+
+✔ Forecast future revenue
+✔ Focus on high-performing markets
+✔ Improve customer retention strategies
+✔ Optimize supply chain based on demand
+✔ Identify new expansion regions
+
+📞 Contact
+
+If you'd like to collaborate or hire me:
+
+👤 Srinikethan Edelli
+🔗 LinkedIn: [www.linkedin.com/in/
+srinikethan-edelli-6610782b7
+]
+📧 Email: [srinikethan2413@gmail.com]
 
 
 
