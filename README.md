@@ -56,7 +56,6 @@ This end-to-end retail analysis project provides insights that help business lea
 
 The insights are designed for CEO/CMO-level decision-making.
 
-https://github.com/Srinikethan-Edelli/Tata/blob/main/Tata.pbix
 
 ## 📁 Project Files
 - 👉 Power BI Dashboard (.pbix): [Download Here](https://github.com/Srinikethan-Edelli/Tata/blob/main/Tata.pbix)
