@@ -63,5 +63,9 @@ The insights are designed for CEO/CMO-level decision-making.
 
 ## 📊 Dashboard Preview
 ![Screenshot](screenshots/Screenshot%202025-11-17%20223454.png)
+![Screenshot](screenshots/Screenshot%202025-11-17%20223533.png)
+![Screenshot](screenshots/Screenshot%202025-11-17%20223615.png)
+![Screenshot](screenshots/Screenshot%202025-11-17%20223646.png)
+
 
 
