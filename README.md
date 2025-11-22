@@ -31,12 +31,7 @@ This ensures **100% accurate analytics**.
 
 ---
 
-## 🧠 DAX Measures Used
 
-Key DAX measures created:
-
-```DAX
-Revenue = SUMX('Online Retail', 'Online Retail'[Quantity] * 'Online Retail'[UnitPrice])
 
 
 
